@@ -9,7 +9,7 @@ class Animal:
 class Dog(Animal):
     def __init__(self, name, color, breed):
         super().__init__(name, color)
-        self.breed = breed
+        self.breed = breed  
 
 animal1 = Animal("josie", "brown")
 animal1.bio()
